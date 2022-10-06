@@ -1,0 +1,80 @@
+@import "/sass/components/general/general.css";
+@import "/sass/components/navbar/navbar.css";
+@import "/sass/components/footer/footer.css";
+@import "/sass/components/header/header.css";
+
+$white: #fff;
+$orange: rgb(247, 163, 55);
+$lightPink: rgb(255, 245, 245);
+
+.header-section {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("/img/graduates-banner.png");
+
+  background-position: 50% 55%;
+}
+
+.location-section {
+  margin-top: 100px;
+}
+
+.contact-us-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+
+  margin-top: 130px;
+
+  .our-contact-block {
+    .street,
+    .phone,
+    .email {
+      display: grid;
+      grid-template-columns: 1fr 8fr;
+      align-items: center;
+
+      margin-top: 20px;
+
+      i {
+        text-align: center;
+        padding: 10px;
+        font-size: 28px;
+        color: rgb(221, 40, 40);
+      }
+    }
+  }
+
+  .form-block {
+    padding: 25px;
+    text-align: left;
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 15px;
+      margin-top: 25px;
+      border: 1px solid rgb(212, 212, 212);
+      font-size: 17px;
+
+      outline: none;
+    }
+
+    .submit {
+      max-width: 180px;
+      font-size: 18px;
+      background-color: $white;
+      border: 1px solid rgb(221, 40, 40);
+      color: rgb(221, 40, 40);
+      padding: 13px 0px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(243, 45, 45);
+        color: white;
+        transition: 0.2s ease;
+      }
+    }
+  }
+}
+
+@import "/sass/components/media/media.css";

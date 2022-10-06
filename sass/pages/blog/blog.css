@@ -1,0 +1,88 @@
+@import "/sass/components/general/general.css";
+@import "/sass/components/navbar/navbar.css";
+@import "/sass/components/footer/footer.css";
+@import "/sass/components/header/header.css";
+@import "/sass/components/media/media.css";
+.header-section {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("/img/graduates-banner.png");
+  background-position: 50% 55%;
+}
+.header-section .text-box h1 {
+  font-size: 62px;
+  margin-bottom: 30px;
+}
+
+.blog-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+.blog-section .left-block {
+  text-align: left;
+}
+.blog-section .left-block img {
+  width: 100%;
+}
+.blog-section .left-block h2 {
+  font-size: 32px;
+  padding: 50px 0;
+}
+.blog-section .right-block {
+  margin-left: 50px;
+}
+.blog-section .right-block h3 {
+  background-color: rgb(247, 163, 55);
+  padding: 10px 0;
+  font-size: 28px;
+  font-weight: 400;
+  color: #fff;
+}
+.blog-section .right-block .categories-item {
+  display: grid;
+  grid-auto-flow: column;
+  text-align: left;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.blog-section .right-block .categories-item span {
+  font-size: 20px;
+  font-weight: 300;
+}
+.blog-section .form-block {
+  padding: 25px;
+  margin-top: 60px;
+  border: 2px solid rgb(220, 220, 220);
+  text-align: left;
+}
+.blog-section .form-block h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.blog-section .form-block input,
+.blog-section .form-block textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 25px;
+  border: none;
+  font-size: 17px;
+  background-color: rgb(242, 242, 242);
+  outline: none;
+}
+.blog-section .form-block .submit {
+  max-width: 180px;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid rgb(221, 40, 40);
+  color: rgb(221, 40, 40);
+  padding: 13px 0px;
+  cursor: pointer;
+}
+.blog-section .form-block .submit:hover {
+  background-color: rgb(243, 45, 45);
+  color: white;
+  transition: 0.2s ease;
+}
+
+.about-section {
+  margin-top: 230px;
+}/*# sourceMappingURL=blog.css.map */

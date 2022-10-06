@@ -1,0 +1,178 @@
+@media (max-width: 1200px) {
+  nav {
+    padding: 0 100px !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .header-section {
+    nav {
+      display: block !important;
+      // grid-auto-flow: row;
+      // justify-content: stretch;
+      text-align: center;
+      padding: 0 50px !important;
+
+      img {
+        margin-bottom: 15px;
+      }
+    }
+
+    .text-box {
+      transform: translate(-50%, -30%);
+
+      h1 {
+        font-size: 62px !important;
+      }
+      p {
+        font-size: 17px;
+      }
+    }
+  }
+
+  .facilities-section .facilities-column {
+    grid-gap: 30px;
+    grid-template-columns: 1fr !important;
+  }
+
+  .main-section {
+    margin-top: 150px !important;
+    grid-template-columns: 1fr !important;
+    grid-gap: 50px;
+
+    .main-description {
+      text-align: center !important;
+    }
+  }
+
+  .blog-section {
+    display: block !important;
+    .right-block {
+      padding-top: 50px;
+      margin-left: 0px !important;
+    }
+  }
+
+  .course-column {
+    grid-gap: 20px !important;
+    grid-auto-flow: row !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-section {
+    nav {
+      display: grid !important;
+      justify-content: start !important;
+      padding: 0 50px !important;
+
+      .nav-links-hidden {
+        right: -200px;
+      }
+
+      .burger-active {
+        display: block;
+
+        z-index: 2;
+      }
+
+      .close-active {
+        // transition: opacity 0.5s ease;
+        // display: block !important;
+        // opacity: 1;
+        top: 10px;
+        // right: 150px;
+      }
+    }
+
+    .text-box {
+      h1 {
+        font-size: 52px !important;
+      }
+    }
+  }
+
+  .nav-links {
+    display: block !important;
+    background-color: rgb(78, 107, 141);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+    transition: 0.3s ease;
+
+    height: 100vh;
+    width: 200px;
+
+    z-index: 2;
+
+    li {
+      &:nth-child(1) {
+        margin-top: 50px !important;
+      }
+      margin: 35px 0px 0px 10px !important;
+    }
+  }
+
+  .contact-us-section {
+    grid-template-columns: 1fr !important;
+  }
+
+  .campus-column {
+    grid-template-columns: 1fr !important;
+    grid-gap: 20px;
+
+    .campus-item {
+      width: 70% !important;
+    }
+  }
+
+  .facilities-column {
+    grid-template-columns: 1fr !important;
+    grid-gap: 50px;
+
+    .facilities-item {
+      width: 80% !important;
+    }
+  }
+
+  .review-column {
+    grid-template-columns: 1fr !important;
+    grid-gap: 30px !important;
+  }
+
+  .contact-section .text-box h1 {
+    font-size: 32px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-section {
+    nav {
+      padding: 0 30px !important;
+
+      img {
+        width: 180px !important;
+        margin-top: 3px !important;
+      }
+    }
+
+    .text-box {
+      transform: translate(-50%, -35%);
+      h1 {
+        font-size: 48px !important;
+      }
+      p {
+        font-size: 16px !important;
+      }
+    }
+
+    .burger-btn {
+      right: 30px;
+    }
+  }
+
+  .contact-section .text-box h1 {
+    font-size: 28px !important;
+  }
+}

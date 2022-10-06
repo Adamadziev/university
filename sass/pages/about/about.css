@@ -1,0 +1,39 @@
+@import "/sass/components/general/general.css";
+@import "/sass/components/navbar/navbar.css";
+@import "/sass/components/footer/footer.css";
+@import "/sass/components/header/header.css";
+@import "/sass/components/media/media.css";
+.header-section {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("/img/graduates-banner.png");
+  background-position: 50% 55%;
+}
+
+.main-section {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  margin-top: 200px;
+}
+.main-section .main-description {
+  text-align: left;
+}
+.main-section .main-description h1 {
+  font-size: 46px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.main-section .main-description button {
+  background-color: white;
+  border: 1px solid rgb(243, 45, 45);
+  color: rgb(243, 45, 45);
+  padding: 11.5px 40px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.main-section .main-description button:hover {
+  background-color: rgb(243, 45, 45);
+  color: white;
+  transition: 0.2s ease;
+}
+.main-section img {
+  width: 100%;
+}/*# sourceMappingURL=about.css.map */

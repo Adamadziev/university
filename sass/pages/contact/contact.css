@@ -1,0 +1,63 @@
+@import "/sass/components/general/general.css";
+@import "/sass/components/navbar/navbar.css";
+@import "/sass/components/footer/footer.css";
+@import "/sass/components/header/header.css";
+@import "/sass/components/media/media.css";
+.header-section {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("/img/graduates-banner.png");
+  background-position: 50% 55%;
+}
+
+.location-section {
+  margin-top: 100px;
+}
+
+.contact-us-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  margin-top: 130px;
+}
+.contact-us-section .our-contact-block .street,
+.contact-us-section .our-contact-block .phone,
+.contact-us-section .our-contact-block .email {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  align-items: center;
+  margin-top: 20px;
+}
+.contact-us-section .our-contact-block .street i,
+.contact-us-section .our-contact-block .phone i,
+.contact-us-section .our-contact-block .email i {
+  text-align: center;
+  padding: 10px;
+  font-size: 28px;
+  color: rgb(221, 40, 40);
+}
+.contact-us-section .form-block {
+  padding: 25px;
+  text-align: left;
+}
+.contact-us-section .form-block input,
+.contact-us-section .form-block textarea {
+  width: 100%;
+  padding: 15px;
+  margin-top: 25px;
+  border: 1px solid rgb(212, 212, 212);
+  font-size: 17px;
+  outline: none;
+}
+.contact-us-section .form-block .submit {
+  max-width: 180px;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid rgb(221, 40, 40);
+  color: rgb(221, 40, 40);
+  padding: 13px 0px;
+  cursor: pointer;
+}
+.contact-us-section .form-block .submit:hover {
+  background-color: rgb(243, 45, 45);
+  color: white;
+  transition: 0.2s ease;
+}/*# sourceMappingURL=contact.css.map */
